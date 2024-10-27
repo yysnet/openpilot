@@ -15,6 +15,7 @@ from openpilot.common.swaglog import cloudlog
 
 
 UNREGISTERED_DONGLE_ID = "UnregisteredDevice"
+FORCE_DONGLE_ID = "A1B2C3D4E5F6"
 
 def is_registered_device() -> bool:
   dongle = Params().get("DongleId", encoding='utf-8')
@@ -32,6 +33,9 @@ def register(show_spinner=False) -> str | None:
   entirely.
   """
   params = Params()
+
+  params.put("DongleId", FORCE_DONGLE_ID)
+  return FORCE_DONGLE_ID
 
   IMEI = params.get("IMEI", encoding='utf8')
   HardwareSerial = params.get("HardwareSerial", encoding='utf8')

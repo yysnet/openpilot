@@ -318,9 +318,9 @@ def hardware_thread(end_event, hw_queue) -> None:
     # TODO: this should move to TICI.initialize_hardware, but we currently can't import params there
     if TICI:
       if not os.path.isfile("/persist/comma/living-in-the-moment"):
-        if not Path("/data/media").is_mount():
-          set_offroad_alert_if_changed("Offroad_StorageMissing", True)
-        else:
+        if Path("/data/media").is_mount():
+          #set_offroad_alert_if_changed("Offroad_StorageMissing", True)
+        #else:
           # check for bad NVMe
           try:
             with open("/sys/block/nvme0n1/device/model") as f:
