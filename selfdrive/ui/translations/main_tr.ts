@@ -726,11 +726,11 @@ This may take up to a minute.</source>
     <name>Sidebar</name>
     <message>
         <source>CONNECT</source>
-        <translation>BAĞLANTI</translation>
+        <translation type="vanished">BAĞLANTI</translation>
     </message>
     <message>
         <source>OFFLINE</source>
-        <translation>ÇEVRİMDIŞI</translation>
+        <translation type="vanished">ÇEVRİMDIŞI</translation>
     </message>
     <message>
         <source>ONLINE</source>
@@ -738,7 +738,7 @@ This may take up to a minute.</source>
     </message>
     <message>
         <source>ERROR</source>
-        <translation>HATA</translation>
+        <translation type="vanished">HATA</translation>
     </message>
     <message>
         <source>TEMP</source>
@@ -869,6 +869,10 @@ This may take up to a minute.</source>
     </message>
     <message>
         <source>up to date, last checked %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Disable Updates</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

@@ -726,11 +726,11 @@ This may take up to a minute.</source>
     <name>Sidebar</name>
     <message>
         <source>CONNECT</source>
-        <translation>接続</translation>
+        <translation type="vanished">接続</translation>
     </message>
     <message>
         <source>OFFLINE</source>
-        <translation>オフライン</translation>
+        <translation type="vanished">オフライン</translation>
     </message>
     <message>
         <source>ONLINE</source>
@@ -738,7 +738,7 @@ This may take up to a minute.</source>
     </message>
     <message>
         <source>ERROR</source>
-        <translation>エラー</translation>
+        <translation type="vanished">エラー</translation>
     </message>
     <message>
         <source>TEMP</source>
@@ -869,6 +869,10 @@ This may take up to a minute.</source>
     </message>
     <message>
         <source>never</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Disable Updates</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

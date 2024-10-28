@@ -728,11 +728,11 @@ This may take up to a minute.</source>
     <name>Sidebar</name>
     <message>
         <source>CONNECT</source>
-        <translation>CONNECT</translation>
+        <translation type="vanished">CONNECT</translation>
     </message>
     <message>
         <source>OFFLINE</source>
-        <translation>离线</translation>
+        <translation type="vanished">离线</translation>
     </message>
     <message>
         <source>ONLINE</source>
@@ -740,7 +740,7 @@ This may take up to a minute.</source>
     </message>
     <message>
         <source>ERROR</source>
-        <translation>连接出错</translation>
+        <translation type="vanished">连接出错</translation>
     </message>
     <message>
         <source>TEMP</source>
@@ -872,6 +872,10 @@ This may take up to a minute.</source>
     <message>
         <source>never</source>
         <translation>从未更新</translation>
+    </message>
+    <message>
+        <source>Disable Updates</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

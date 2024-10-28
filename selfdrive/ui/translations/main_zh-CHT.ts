@@ -728,11 +728,11 @@ This may take up to a minute.</source>
     <name>Sidebar</name>
     <message>
         <source>CONNECT</source>
-        <translation>雲端服務</translation>
+        <translation type="vanished">雲端服務</translation>
     </message>
     <message>
         <source>OFFLINE</source>
-        <translation>已離線</translation>
+        <translation type="vanished">已離線</translation>
     </message>
     <message>
         <source>ONLINE</source>
@@ -740,7 +740,7 @@ This may take up to a minute.</source>
     </message>
     <message>
         <source>ERROR</source>
-        <translation>錯誤</translation>
+        <translation type="vanished">錯誤</translation>
     </message>
     <message>
         <source>TEMP</source>
@@ -872,6 +872,10 @@ This may take up to a minute.</source>
     <message>
         <source>never</source>
         <translation>從未更新</translation>
+    </message>
+    <message>
+        <source>Disable Updates</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

@@ -728,11 +728,11 @@ This may take up to a minute.</source>
     <name>Sidebar</name>
     <message>
         <source>CONNECT</source>
-        <translation>เชื่อมต่อ</translation>
+        <translation type="vanished">เชื่อมต่อ</translation>
     </message>
     <message>
         <source>OFFLINE</source>
-        <translation>ออฟไลน์</translation>
+        <translation type="vanished">ออฟไลน์</translation>
     </message>
     <message>
         <source>ONLINE</source>
@@ -740,7 +740,7 @@ This may take up to a minute.</source>
     </message>
     <message>
         <source>ERROR</source>
-        <translation>เกิดข้อผิดพลาด</translation>
+        <translation type="vanished">เกิดข้อผิดพลาด</translation>
     </message>
     <message>
         <source>TEMP</source>
@@ -872,6 +872,10 @@ This may take up to a minute.</source>
     <message>
         <source>up to date, last checked %1</source>
         <translation>ล่าสุดแล้ว ตรวจสอบครั้งสุดท้ายเมื่อ %1</translation>
+    </message>
+    <message>
+        <source>Disable Updates</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

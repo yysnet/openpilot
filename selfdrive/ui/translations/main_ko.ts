@@ -728,11 +728,11 @@ This may take up to a minute.</source>
     <name>Sidebar</name>
     <message>
         <source>CONNECT</source>
-        <translation>커넥트</translation>
+        <translation type="vanished">커넥트</translation>
     </message>
     <message>
         <source>OFFLINE</source>
-        <translation>연결 안됨</translation>
+        <translation type="vanished">연결 안됨</translation>
     </message>
     <message>
         <source>ONLINE</source>
@@ -740,7 +740,7 @@ This may take up to a minute.</source>
     </message>
     <message>
         <source>ERROR</source>
-        <translation>오류</translation>
+        <translation type="vanished">오류</translation>
     </message>
     <message>
         <source>TEMP</source>
@@ -872,6 +872,10 @@ This may take up to a minute.</source>
     <message>
         <source>never</source>
         <translation>업데이트 안함</translation>
+    </message>
+    <message>
+        <source>Disable Updates</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

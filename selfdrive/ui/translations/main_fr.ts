@@ -732,11 +732,11 @@ Cela peut prendre jusqu&apos;à une minute.</translation>
     <name>Sidebar</name>
     <message>
         <source>CONNECT</source>
-        <translation>CONNECTER</translation>
+        <translation type="vanished">CONNECTER</translation>
     </message>
     <message>
         <source>OFFLINE</source>
-        <translation>HORS LIGNE</translation>
+        <translation type="vanished">HORS LIGNE</translation>
     </message>
     <message>
         <source>ONLINE</source>
@@ -744,7 +744,7 @@ Cela peut prendre jusqu&apos;à une minute.</translation>
     </message>
     <message>
         <source>ERROR</source>
-        <translation>ERREUR</translation>
+        <translation type="vanished">ERREUR</translation>
     </message>
     <message>
         <source>TEMP</source>
@@ -876,6 +876,10 @@ Cela peut prendre jusqu&apos;à une minute.</translation>
     <message>
         <source>up to date, last checked %1</source>
         <translation>à jour, dernière vérification %1</translation>
+    </message>
+    <message>
+        <source>Disable Updates</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

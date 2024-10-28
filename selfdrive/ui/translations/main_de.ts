@@ -731,11 +731,11 @@ This may take up to a minute.</source>
     <message>
         <source>CONNECT</source>
         <translatorcomment>This is a brand/service name for comma connect, don&apos;t translate</translatorcomment>
-        <translation>CONNECT</translation>
+        <translation type="vanished">CONNECT</translation>
     </message>
     <message>
         <source>OFFLINE</source>
-        <translation>OFFLINE</translation>
+        <translation type="vanished">OFFLINE</translation>
     </message>
     <message>
         <source>ONLINE</source>
@@ -743,7 +743,7 @@ This may take up to a minute.</source>
     </message>
     <message>
         <source>ERROR</source>
-        <translation>FEHLER</translation>
+        <translation type="vanished">FEHLER</translation>
     </message>
     <message>
         <source>TEMP</source>
@@ -875,6 +875,10 @@ This may take up to a minute.</source>
     </message>
     <message>
         <source>never</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Disable Updates</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

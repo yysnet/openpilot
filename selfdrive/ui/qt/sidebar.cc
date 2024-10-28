@@ -72,25 +72,25 @@ void Sidebar::offroadTransition(bool offroad) {
 void Sidebar::updateState(const UIState &s) {
   if (!isVisible()) return;
 
-  auto &sm = *(s.sm);
+   auto &sm = *(s.sm);
 
-  networking = networking ? networking : window()->findChild<Networking *>("");
-  bool tethering_on = networking && networking->wifi->tethering_on;
-  auto deviceState = sm["deviceState"].getDeviceState();
-  setProperty("netType", tethering_on ? "Hotspot": network_type[deviceState.getNetworkType()]);
-  int strength = tethering_on ? 4 : (int)deviceState.getNetworkStrength();
-  setProperty("netStrength", strength > 0 ? strength + 1 : 0);
+   networking = networking ? networking : window()->findChild<Networking *>("");
+   bool tethering_on = networking && networking->wifi->tethering_on;
+   auto deviceState = sm["deviceState"].getDeviceState();
+   setProperty("netType", tethering_on ? "Hotspot": network_type[deviceState.getNetworkType()]);
+   int strength = tethering_on ? 4 : (int)deviceState.getNetworkStrength();
+   setProperty("netStrength", strength > 0 ? strength + 1 : 0);
 
-  ItemStatus connectStatus;
-  auto last_ping = deviceState.getLastAthenaPingTime();
-  if (last_ping == 0) {
-    connectStatus = ItemStatus{{tr("CONNECT"), tr("OFFLINE")}, warning_color};
-  } else {
-    connectStatus = nanos_since_boot() - last_ping < 80e9
-                        ? ItemStatus{{tr("CONNECT"), tr("ONLINE")}, good_color}
-                        : ItemStatus{{tr("CONNECT"), tr("ERROR")}, danger_color};
-  }
-  setProperty("connectStatus", QVariant::fromValue(connectStatus));
+  // ItemStatus connectStatus;
+  // auto last_ping = deviceState.getLastAthenaPingTime();
+  // if (last_ping == 0) {
+  //   connectStatus = ItemStatus{{tr("CONNECT"), tr("OFFLINE")}, warning_color};
+  // } else {
+  //   connectStatus = nanos_since_boot() - last_ping < 80e9
+  //                       ? ItemStatus{{tr("CONNECT"), tr("ONLINE")}, good_color}
+  //                       : ItemStatus{{tr("CONNECT"), tr("ERROR")}, danger_color};
+  // }
+  // setProperty("connectStatus", QVariant::fromValue(connectStatus));
 
   ItemStatus tempStatus = {{tr("TEMP"), tr("HIGH")}, danger_color};
   auto ts = deviceState.getThermalStatus();

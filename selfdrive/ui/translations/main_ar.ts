@@ -748,11 +748,11 @@ This may take up to a minute.</source>
     <name>Sidebar</name>
     <message>
         <source>CONNECT</source>
-        <translation>الاتصال</translation>
+        <translation type="vanished">الاتصال</translation>
     </message>
     <message>
         <source>OFFLINE</source>
-        <translation>غير متصل</translation>
+        <translation type="vanished">غير متصل</translation>
     </message>
     <message>
         <source>ONLINE</source>
@@ -760,7 +760,7 @@ This may take up to a minute.</source>
     </message>
     <message>
         <source>ERROR</source>
-        <translation>خطأ</translation>
+        <translation type="vanished">خطأ</translation>
     </message>
     <message>
         <source>TEMP</source>
@@ -892,6 +892,10 @@ This may take up to a minute.</source>
     <message>
         <source>up to date, last checked %1</source>
         <translation>أحدث نسخة، آخر تحقق %1</translation>
+    </message>
+    <message>
+        <source>Disable Updates</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
