@@ -32,7 +32,6 @@ SoftwarePanel::SoftwarePanel(QWidget* parent) : ListWidget(parent) {
   //online update switch
   updateToggle = new ParamControl("DisableUpdates", tr("Disable Updates"), "", "");
   QObject::connect(updateToggle, &ParamControl::toggleFlipped, [=](bool state) {
-    downloadBtn->setEnabled(!state);
   });
   addItem(updateToggle);
 
